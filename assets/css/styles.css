@@ -70,11 +70,11 @@ ul li, ol li {
 /* banner */
 
 .top-banner {
-  background-image: linear-gradient(to right, #5b528c, #483e7a, #362c68, #231a56, #0e0745);
-  height: 100vh;
-  padding: 20px 0 0;
-  position: relative;
-  overflow: hidden;
+    background-image: linear-gradient(to right, #5b528c, #483e7a, #362c68, #231a56, #0e0745);
+    height: 88vh;
+    padding: 20px 0 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .right-nav {
@@ -113,10 +113,10 @@ li.btn-nav>a {
 }
 
 .banner-image {
-  float: left;
-  position: relative;
-  z-index: 2;
-  bottom: -40px;
+    float: left;
+    position: relative;
+    z-index: 2;
+    bottom: -67px;
 }
 
 .banner-text {
@@ -132,7 +132,7 @@ li.btn-nav>a {
 }
 
 .banner-image>img {
-  width: 466px;
+    width: 500px;
 }
 
 a.link-btn {
@@ -776,11 +776,14 @@ ul.footer-nav>li>a:hover {
 }
 
 ul.social-btns.footer-social>li>a {
-  border: 1px solid #8225C1;
-  background-image: linear-gradient(to right, #110D24, #514973);
-  border-style: solid;
-  border-width: 1px;
-  border-image: conic-gradient(#433c62, #443979, #a225ed, #a225ed) 1
+    display: block;
+    padding: 10px 10px;
+    border-radius: 0px;
+    border-image: linear-gradient(to left, #5b528c, #483e7a, #362c68, #231a56, #0e0745);
+    border-style: solid;
+    border-width: 1px;
+    border-image: conic-gradient(#a024eb54, #a225ed00, #a225ed59, #6808a1) 1;
+    background: linear-gradient(254deg, #ffffff3b, transparent);
 }
 
 .copyright {
