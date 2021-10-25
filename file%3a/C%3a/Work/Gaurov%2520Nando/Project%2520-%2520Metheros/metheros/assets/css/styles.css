@@ -87,15 +87,16 @@ ul.social-btns>li {
 }
 
 ul.social-btns>li>a {
-    display: block;
-    padding: 10px 10px;
-    border-radius: 0px;
-    border-image: linear-gradient(to left, #5b528c, #483e7a, #362c68, #231a56, #0e0745);
-    border-style: solid;
-    border-width: 1px;
-    border-image: conic-gradient(#a024eb54, #a225ed00, #a225ed59, #6808a1) 1;
-    background: linear-gradient(254deg, #ffffff3b, transparent);
+  display: block;
+  padding: 10px 10px;
+  border-radius: 0px;
+  border-image: linear-gradient(to left, #5b528c, #483e7a, #362c68, #231a56, #0e0745);
+  border-style: solid;
+  border-width: 1px;
+  border-image: conic-gradient(#a024eb54, #a225ed00, #a225ed59, #6808a1) 1;
+  background: linear-gradient(254deg, #ffffff3b, transparent);
 }
+
 li.btn-nav>a {
   background-color: #FFF !important;
   background-image: unset !important;
@@ -105,6 +106,7 @@ li.btn-nav>a {
   border: none !important;
   padding-right: 20px !important;
   padding-left: 20px !important;
+  border-radius: 0;
 }
 
 .z-top {
