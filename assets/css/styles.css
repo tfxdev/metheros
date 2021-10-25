@@ -22,7 +22,9 @@ h1, h2, h3, h4 {
   font-weight: 700;
   font-family: 'ceraPro', sans-serif;
 }
-
+h1{
+  font-size: 50px;
+}
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #809FB8;
@@ -50,7 +52,7 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 ul, ol {
@@ -71,7 +73,7 @@ ul li, ol li {
 
 .top-banner {
     background-image: linear-gradient(to right, #5b528c, #483e7a, #362c68, #231a56, #0e0745);
-    height: 88vh;
+    height: 100vh;
     padding: 20px 0 0;
     position: relative;
     overflow: hidden;
@@ -116,7 +118,8 @@ li.btn-nav>a {
     float: left;
     position: relative;
     z-index: 2;
-    bottom: -67px;
+    bottom: 79px;
+    left: -39px;
 }
 
 .banner-text {
@@ -127,12 +130,12 @@ li.btn-nav>a {
 }
 
 .banner-text>h1 {
-  font-size: 40px;
-  color: #FFF;
+    font-size: 2.7vw;
+    color: #FFF;
 }
 
 .banner-image>img {
-    width: 500px;
+    width: 687px;
 }
 
 a.link-btn {
@@ -194,18 +197,19 @@ a.link-btn {
 }
 
 .driver-heading>h1 {
-  color: #FFF;
-  font-size: 38px;
-  margin-bottom: 15px;
+    color: #FFF;
+    font-size: 48px;
+    margin-bottom: 15px;
 }
 
 span.sub-head {
-  font-size: 36px;
-  color: #A225ED;
-  font-weight: 600;
-  text-transform: capitalize;
-  margin-bottom: 30px;
-  display: block;
+    font-size: 36px;
+    color: #A225ED;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    display: block;
+    font-size: 46px;
 }
 
 .driver-wrapper {
@@ -215,12 +219,11 @@ span.sub-head {
 }
 
 .box-driver p {
-  font-size: 16px;
-  color: #FFF;
-  opacity: .5;
-  padding-right: 120px;
+    font-size: 17px;
+    color: #FFF;
+    opacity: .5;
+    padding-right: 120px;
 }
-
 .commu-box p {
   font-size: 16px;
   color: #FFF;
@@ -306,6 +309,7 @@ span.sub-head {
 
 .header-timeline>h1 {
   color: #f9f9f9;
+  font-size: 50px;
 }
 
 .header-timeline>p {
@@ -820,3 +824,12 @@ ul.social-btns.footer-social>li>a {
 @media only screen and (max-width:767px) {}
 
 @media only screen and (min-width:1366px) {}
+
+.ethgf454{
+    max-width: 57%;
+}
+
+.eaddhg545 {
+    max-width: 41%;
+    flex: 0 0 41.333333%;
+}
