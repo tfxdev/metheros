@@ -918,6 +918,9 @@ ul.social-btns.footer-social img {
 .row.navbar-tf .col-sm-8 {
     width: 65%;
 }
+ul.social-btns {
+    display: flex;
+}
 ul.social-btns>li{
     margin: 0 1px;
 }
