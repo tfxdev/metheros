@@ -118,7 +118,7 @@ li.btn-nav>a {
     float: left;
     position: relative;
     z-index: 2;
-    bottom: 79px;
+    bottom: 40px;
     left: -39px;
 }
 
@@ -845,6 +845,18 @@ ul.social-btns.footer-social>li>a {
     font-size: 3.7vw;
     color: #FFF;
 }
+.top-banner:after {
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: -220px;
+    z-index: 1;
+    height: 804px;
+    opacity: .5;
+    width: 811px;
+    background-color: #6d649d;
+    border-radius: 50%;
+}
 }
 
 @media only screen and (max-width:993px) {
@@ -1029,7 +1041,18 @@ ul.social-btns.footer-social img {
 .top-banner:before {
     bottom: -181px;
 }
-
+.top-banner:after {
+    content: "";
+    position: absolute;
+    left: -13%;
+    bottom: -220px;
+    z-index: 1;
+    height: 327px;
+    opacity: .5;
+    width: 242px;
+    background-color: #6d649d;
+    border-radius: 50%;
+}
 }
 @media only screen and (max-width: 500px){
 .top-banner:before {
