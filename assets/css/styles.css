@@ -934,18 +934,33 @@ li.btn-nav a {
     padding: 1px 10px!important;
     font-size: 11px;
 }
+.banner-text>h1 {
+    font-size: 3.5vw;
+    color: #FFF;
+}
   .banner-image {
     bottom: -7px;
     left: -3vw;
+    width: 52vw;
 }
 .banner-image>img {
     width: 377px;
 }
 .top-banner {
 
-    height: 60vh;
-
-
+    height: auto;
+}
+.banner-text {
+    width: 50vw;
+    margin-top: 8vh;
+}
+a.link-btn {
+    background-color: #A225ED;
+    color: #FFF;
+    padding: 0px 6px;
+    margin: 5px 0;
+    display: inline-block;
+    font-size: 11px;
 }
 .top-banner:before {
 
@@ -1007,5 +1022,17 @@ ul.social-btns.footer-social img {
 .commu-img {
     position: static;
     margin-top: 14px;
+}
+}
+
+@media only screen and (max-width: 600px){
+.top-banner:before {
+    bottom: -181px;
+}
+
+}
+@media only screen and (max-width: 500px){
+.top-banner:before {
+    bottom: -127px;
 }
 }
