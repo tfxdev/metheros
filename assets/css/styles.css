@@ -836,6 +836,10 @@ ul.social-btns.footer-social>li>a {
 .join-wrapper .container, .faq-wrapper .container, .roadmap-wrapper .container{
     max-width: 1100px;
 }
+.faq-wrapper .panel-title>a {
+    font-size: 21px;
+}
+
 @media only screen and (min-width:1200px) {
   .banner-text {
   float: right;
@@ -968,7 +972,7 @@ ul.social-btns {
     display: flex;
 }
 ul.social-btns>li{
-    margin: 0 1px;
+    margin: 0 2px;
 }
 ul.social-btns>li>a {
     padding: 0px 6px;
@@ -1070,7 +1074,24 @@ ul.social-btns.footer-social img {
     margin-top: 14px;
     text-align: center;
 }
-
+.commu-box p {
+    font-size: 16px;
+    color: #FFF;
+    opacity: .5;
+    padding-right: 0px;
+}
+ul.footer-nav {
+    float: left;
+    margin-right: 10px;
+}
+.driver-img {
+    position: static;
+    top: -111px;
+    right: 10px;
+}
+.box-driver p {
+    padding-right: 0px;
+}
 }
 
 @media only screen and (max-width: 600px){
@@ -1086,7 +1107,7 @@ ul.social-btns.footer-social img {
     border-radius: 0;
 }
 .header-timeline>h1, .faq-title>h1,.join-title>h1 {
-    font-size: 10vw;
+    font-size: 8vw;
 }
 .header-timeline>p, .faq-title>p {
     padding: 0 23px;
@@ -1119,5 +1140,26 @@ ul.social-btns.footer-social img {
 @media only screen and (max-width: 500px){
 .top-banner:before {
     bottom: -127px;
+}
+.faq-wrapper .panel-title>a {
+    font-size: 14px;
+}
+.ethgf454 {
+    max-width: 100%;
+}
+.eaddhg545 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding-top: 30px;
+}
+.commu-img>img {
+    width: 100%;
+}
+ul.footer-nav>li>a {
+    color: #fff;
+    opacity: .7;
+    display: inline-block;
+    padding: 0px 3px;
+    font-size: 11px;
 }
 }
